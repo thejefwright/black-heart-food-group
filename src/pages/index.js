@@ -12,7 +12,8 @@ position: relative;
  text-align: center;
 .button {
   position: absolute;
-  bottom: 5rem;
+  color: white;
+  bottom: 10rem;
   left: 50%;
   transform: translateX(-50%);
   font-size: 2rem;
