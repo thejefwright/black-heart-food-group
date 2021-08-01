@@ -21,10 +21,13 @@ html {
 }
 h1 {
   font-size: 5rem;
+  color: #ff9d00;
 }
 h2 {
   font-size: 3rem;
   padding: 1rem 0;
+  color: #ffc600;
+  color: #ff9d00;
 }
 p {
   font-size: 2rem;
