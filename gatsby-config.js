@@ -7,7 +7,7 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
       options: {
-        url: "",
+        url: "http://blackheartfoodgroup.com/graphql",
       },
     },
     "gatsby-plugin-styled-components",
