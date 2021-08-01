@@ -50,7 +50,7 @@ export default function IndexPage() {
     <div>
       <h1>Jef Wright</h1>
       <h2>I'm working on it</h2>
-      <Link to="/menu" className="button">I'm Erica</Link>
+      <Link to="/menu" className="button">I'm Erica Archer</Link>
         {/* {allWpPost.nodes.map((post) =>  (
           <div key={post.id}>
             <h1 dangerouslySetInnerHTML={{__html: post.title}} ></h1>
