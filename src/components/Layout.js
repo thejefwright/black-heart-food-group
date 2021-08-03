@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 import styled from 'styled-components';
 import '@fontsource/inter';
 import '@fontsource/inter/200.css';
+import '@fontsource/inter/300.css';
 
 
 const GlobalStyles = createGlobalStyle`
@@ -30,11 +31,15 @@ h1 {
 h2 {
   font-size: 3rem;
   padding: 1rem 0;
-  color: #ffc600;
-  color: #ff9d00;
+  color: var(--orange);
+}
+h3 {
+  font-size: 2.5rem;
+
 }
 p {
   font-size: 2rem;
+  font-weight: 200;
 }
 li {
   font-weight: 200;
@@ -50,7 +55,7 @@ hr {
 const InnerStyles = styled.div`
   margin: 0 auto;
   width: 80%;
-  padding: 4rem;
+  padding: 3rem;
 
   @media (max-width: 800px) {
     width: 100%;
