@@ -6,6 +6,10 @@ import '@fontsource/inter/200.css';
 
 
 const GlobalStyles = createGlobalStyle`
+:root {
+  --blue: #193549;
+  --orange: #ff9d00;
+}
 *,
 *:before,
 *:after {
@@ -16,12 +20,12 @@ const GlobalStyles = createGlobalStyle`
 html {
   font-size: 62.5%;
   font-family: 'Inter';
-  background-color: #193549;
+  background-color: var(--blue);
   color: white;
 }
 h1 {
   font-size: 5rem;
-  color: #ff9d00;
+  color: var(--orange);
 }
 h2 {
   font-size: 3rem;
