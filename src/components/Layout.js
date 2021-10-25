@@ -5,7 +5,6 @@ import '@fontsource/inter';
 import '@fontsource/inter/200.css';
 import '@fontsource/inter/300.css';
 
-
 const GlobalStyles = createGlobalStyle`
 :root {
   --blue: #193549;
@@ -40,6 +39,7 @@ h3 {
 p {
   font-size: 2rem;
   font-weight: 200;
+  margin-bottom: 1rem;
 }
 li {
   font-weight: 200;
