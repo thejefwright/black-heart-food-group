@@ -25,7 +25,7 @@ const MenuStyles = styled.div`
     color: black;
   }
   section {
-    font-family: 'Nunito Sans';
+    /* font-family: 'Nunito Sans'; */
     background: #ffb3ab;
     border: 1px solid #f8423a;
     margin: 3em;
@@ -37,11 +37,13 @@ const MenuStyles = styled.div`
   }
   .section_header {
     font-family: 'Nunito Sans';
+    font-weight: 700;
     -webkit-text-stroke: 1.5px #f8423a;
     line-height: 1em;
     text-align: center;
     color: #ffb3ab;
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-bottom: 1em;
   }
   .menu_items {
     list-style: none;

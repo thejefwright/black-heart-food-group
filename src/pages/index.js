@@ -22,7 +22,6 @@ const HomeStyles = styled.div`
     background-color: #ffb3ab;
     color: #f8423a;
     line-height: 1em;
-    /* -webkit-text-stroke: 1.5px #f8423a; */
     font-size: 3rem;
     border: 1px solid #f8423a;
     border-radius: 15px;
@@ -30,13 +29,10 @@ const HomeStyles = styled.div`
     margin: 2rem;
     text-decoration: none;
     transition: all 500ms;
-    /* &:visited {
-      color: #ffb3ab;
-    } */
+
     &:hover {
       border: 1px solid #ffb3ab;
       color: #ffb3ab;
-      /* -webkit-text-stroke: 1.5px #ffb3ab; */
       background-color: #f8423a;
     }
   }
@@ -50,7 +46,7 @@ export default function IndexPage() {
         <h2>I'm working on it</h2>
         <div className="wrapper">
           <Link to="/firstDraft" className="button">
-            CROWN JEWEL
+            CROWN JEWEL - V1.0
           </Link>
           {/* <Link to="/vinaigrette" className="button">I'm Melissa</Link>
         <Link to="/menu" className="button">I'm Erica</Link> */}
