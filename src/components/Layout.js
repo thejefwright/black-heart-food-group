@@ -1,6 +1,7 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 import styled from 'styled-components';
+import '@fontsource/nunito-sans/700.css';
 import '@fontsource/inter';
 import '@fontsource/inter/200.css';
 import '@fontsource/inter/300.css';
@@ -20,6 +21,8 @@ const GlobalStyles = createGlobalStyle`
 html {
   font-size: 62.5%;
   font-family: 'Inter';
+  /* font-family: 'Nunito Sans'; */
+
   background-color: var(--blue);
   color: white;
 }
