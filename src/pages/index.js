@@ -46,7 +46,7 @@ export default function IndexPage() {
         <h2>I'm working on it</h2>
         <div className="wrapper">
           <Link to="/firstDraft" className="button">
-            CROWN JEWEL - V1.0
+            CLICK HERE
           </Link>
           {/* <Link to="/vinaigrette" className="button">I'm Melissa</Link>
         <Link to="/menu" className="button">I'm Erica</Link> */}

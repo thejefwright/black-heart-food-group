@@ -57,7 +57,7 @@ hr {
 `;
 const InnerStyles = styled.div`
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   padding: 3rem;
 
   @media (max-width: 800px) {

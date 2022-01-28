@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import background from '../images/CJ_PrimaryOutlineRGB-16.png';
+import background from '../images/CJ_PrimaryOutlineRGB-02.png';
 import flowers from '../images/CJ_flowers_web_04.png';
 import '@fontsource/nunito-sans/700.css';
 import '@fontsource/nunito-sans/300.css';
@@ -14,7 +14,7 @@ const MenuStyles = styled.div`
 
   .header {
     background: #f8423a;
-    height: 18rem;
+    height: 25rem;
     padding: 4rem;
     background-image: url(${background});
     background-position: center;
@@ -28,12 +28,13 @@ const MenuStyles = styled.div`
     /* font-family: 'Nunito Sans'; */
     background: #ffb3ab;
     border: 1px solid #f8423a;
-    margin: 3em;
-    padding: 1em;
+    margin: 2rem;
+    padding: 3rem 1rem;
   }
   .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: 10rem 20rem;
   }
   .section_header {
     font-family: 'Nunito Sans';
@@ -43,13 +44,15 @@ const MenuStyles = styled.div`
     text-align: center;
     color: #ffb3ab;
     font-size: 4rem;
-    margin-bottom: 1em;
+    margin-bottom: 2rem;
   }
+
   .menu_items {
     list-style: none;
   }
   li {
     padding: 2rem 0;
+    font-size: 2rem;
   }
   .title {
     font-weight: 700;
@@ -67,13 +70,16 @@ export default function firstDraft() {
       <header className="header"></header>
       <div className="wrapper">
         <section>
-          <p className="section_header">I</p>
+          <p className="section_header">
+            I<br />
+            Snacks
+          </p>
+
           <ul className="menu_items">
             <li>
-              <span className="title">Dips with Crudite and chips</span>
+              <span className="title">The Dips</span>
               <br />
-              daily selection - French Onion Dip - Charred Eggplant and lemon
-              spread - Pimento Cheese - green goddess
+              Crudite, house chips, rotating daily selection
             </li>
             <li>
               <span className="title">Oysters Rockefeller</span>
@@ -81,8 +87,9 @@ export default function firstDraft() {
               garlic-herb butter, green chartreuse, lemony breadcrumbs
             </li>
             <li>
-              <span className="title">Pimento Cheese Arancini</span>
+              <span className="title">Lobster Arancini</span>
               <br />
+              Tarragon aioli
             </li>
             <li>
               <span className="title">Deviled Eggs</span>
@@ -92,7 +99,7 @@ export default function firstDraft() {
             <li>
               <span className="title">Fried Oysters</span>
               <br />
-              bacon maramalade, lemon aioli, scallion
+              bacon maramalade, lemon, scallion
             </li>
             <li>
               <span className="title">Crispy Braised Pork Belly</span>
@@ -102,28 +109,36 @@ export default function firstDraft() {
           </ul>
         </section>
         <section>
-          <p className="section_header">II</p>
+          <p className="section_header">
+            II
+            <br />
+            Cold & Raw
+          </p>
 
           <ul className="menu_items">
             <li>
               <span className="title">Raw Local Oysters</span>
               <br />
-              Champagne Mignonette, cocktail pearls
+              Champagne Mignonette, cocktail pearls, pickled carrot granita
             </li>
             <li>
-              <span className="title">Maine tuna or scallop crudo</span>
+              <span className="title">Maine Tuna Crudo</span>
               <br />
-              chili oil, smoked olives, fennel
+              chili oil, olives, fennel, orange
             </li>
             <li>
-              <span className="title">Shrimp cocktail ceviche</span>
+              <span className="title">Scallop ceviche</span>
               <br />
               horseradish, lime, cucumber, jalapeno, avocado
             </li>
           </ul>
         </section>
         <section>
-          <p className="section_header">III</p>
+          <p className="section_header">
+            III
+            <br />
+            Smallish Plates
+          </p>
           <ul className="menu_items">
             <li>
               <span className="title">Local Lettuces</span>
@@ -134,32 +149,31 @@ export default function firstDraft() {
             <li>
               <span className="title">Charred Chicken Skewers</span>
               <br />
-              toasted couscous, red onion, cucumber, local feta
+              toasted miso couscous, red onion, cucumber, tandoori yogurt
             </li>
             <li>
               <span className="title">Grilled Green Beans</span>
               <br />
-              tahini ranch, blistered tomatoes, cilantro
-            </li>
-            <li>
-              <span className="title">Brown Butter Roasted Pollock</span>
-              <br />
-              toasted miso couscous, grilled scallions,
+              tahini ranch, blistered tomatoes, cilantro, crispy garlic
             </li>
             <li>
               <span className="title">Pan Seared scallops</span>
               <br />
-              corn, tomatoes, blistered shishitos, arugula,
+              grilled summer squash, black rice, chimichurri
             </li>
           </ul>
         </section>
         <section>
-          <p className="section_header">IV</p>
+          <p className="section_header">
+            IV
+            <br />
+            Bigger Things
+          </p>
           <ul className="menu_items">
             <li>
-              <span className="title">Black Olive Oil Poached Halibut</span>
+              <span className="title">Brown Butter Roasted Halibut</span>
               <br />
-              grilled summer squash, black rice, chimichurri
+              corn, tomatoes, blistered shishitos, arugula
             </li>
             <li>
               <span className="title">Grilled skirt steak</span>
@@ -170,7 +184,7 @@ export default function firstDraft() {
             <li>
               <span className="title">Butter Poached Lobster</span>
               <br />
-              sprouted farro, preserved lemon, tomatoes, tarragon aioli
+              sprouted farro, preserved lemon, tomatoes, green goddess dressing
             </li>
             <li>
               <span className="title">The Ubiquitous Smash Burger</span>
