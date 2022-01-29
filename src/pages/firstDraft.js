@@ -60,6 +60,7 @@ const MenuStyles = styled.div`
   @media (max-width: 800px) {
     .wrapper {
       grid-template-columns: 1fr;
+      margin: 1rem;
     }
   }
 `;
