@@ -80,7 +80,7 @@ export default function firstDraft() {
             <li>
               <span className="title">The Dips</span>
               <br />
-              Crudite, house chips, rotating daily selection
+              Crudite, house crisps, rotating daily selection
             </li>
             <li>
               <span className="title">Oysters Rockefeller</span>
@@ -144,8 +144,8 @@ export default function firstDraft() {
             <li>
               <span className="title">Local Lettuces</span>
               <br />
-              shaved radish and celery, grapefruit, crunchy sourdough, citrus
-              vinaigrette
+              Maine crab, shaved radish and celery, grapefruit, crunchy
+              sourdough, citrus vinaigrette
             </li>
             <li>
               <span className="title">Charred Chicken Skewers</span>
@@ -160,7 +160,12 @@ export default function firstDraft() {
             <li>
               <span className="title">Pan Seared scallops</span>
               <br />
-              grilled summer squash, black rice, chimichurri
+              black rice, crushed cucumbers,
+            </li>
+            <li>
+              <span className="title">Sugar Snap Peas</span>
+              <br />
+              mint, local feta, roasted garlic, toasted sesame, miso dressing
             </li>
           </ul>
         </section>
@@ -184,7 +189,8 @@ export default function firstDraft() {
             <li>
               <span className="title">Butter Poached Lobster</span>
               <br />
-              sprouted farro, preserved lemon, tomatoes, green goddess dressing
+              sprouted farro, roasted summer squash, preserved lemon, green
+              goddess dressing
             </li>
             <li>
               <span className="title">The Ubiquitous Smash Burger</span>
