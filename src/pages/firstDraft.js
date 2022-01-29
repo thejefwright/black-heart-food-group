@@ -11,6 +11,7 @@ const MenuStyles = styled.div`
   background: #ffb3ab;
   background-image: url(${flowers});
   color: black;
+  padding-bottom: 15rem;
 
   .header {
     background: #f8423a;
@@ -21,8 +22,11 @@ const MenuStyles = styled.div`
     background-size: 30rem;
     background-repeat: no-repeat;
   }
-  h1 {
-    color: black;
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10rem 20rem;
   }
   section {
     /* font-family: 'Nunito Sans'; */
@@ -30,11 +34,6 @@ const MenuStyles = styled.div`
     border: 1px solid #f8423a;
     margin: 2rem;
     padding: 3rem 1rem;
-  }
-  .wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 10rem 20rem;
   }
   .section_header {
     font-family: 'Nunito Sans';
@@ -61,6 +60,7 @@ const MenuStyles = styled.div`
     .wrapper {
       grid-template-columns: 1fr;
       margin: 1rem;
+      padding-top: 2rem;
     }
   }
 `;
@@ -100,7 +100,7 @@ export default function firstDraft() {
             <li>
               <span className="title">Fried Oysters</span>
               <br />
-              bacon maramalade, lemon, scallion
+              bacon marmalade, lemon, scallion
             </li>
             <li>
               <span className="title">Crispy Braised Pork Belly</span>
@@ -128,9 +128,9 @@ export default function firstDraft() {
               chili oil, olives, fennel, orange
             </li>
             <li>
-              <span className="title">Scallop ceviche</span>
+              <span className="title">Shrimp Ceviche - Cocktail Style</span>
               <br />
-              horseradish, lime, cucumber, jalapeno, avocado
+              tomato, horseradish, lime, cucumber, jalapeno
             </li>
           </ul>
         </section>
@@ -155,7 +155,7 @@ export default function firstDraft() {
             <li>
               <span className="title">Grilled Green Beans</span>
               <br />
-              tahini ranch, blistered tomatoes, cilantro, crispy garlic
+              tahini ranch, charred tomatoes, cilantro, crispy garlic
             </li>
             <li>
               <span className="title">Pan Seared scallops</span>
@@ -174,13 +174,12 @@ export default function firstDraft() {
             <li>
               <span className="title">Brown Butter Roasted Halibut</span>
               <br />
-              corn, tomatoes, blistered shishitos, arugula
+              corn, tomatoes, fresh lime, blistered shishitos, arugula
             </li>
             <li>
               <span className="title">Grilled skirt steak</span>
               <br />
-              charred radicchio, Bayley Hazen bleu cheese, green peppercorn
-              sauce
+              radicchio, Bayley Hazen bleu cheese, green peppercorn sauce
             </li>
             <li>
               <span className="title">Butter Poached Lobster</span>
@@ -190,7 +189,7 @@ export default function firstDraft() {
             <li>
               <span className="title">The Ubiquitous Smash Burger</span>
               <br />
-              pimento cheese, house pickles, potato bun, fries
+              pimento cheese, house pickles, potato bun, salt & vinegar fries
             </li>
           </ul>
         </section>
