@@ -56,11 +56,17 @@ const MenuStyles = styled.div`
   .title {
     font-weight: 700;
   }
+  @media (max-width: 1000px) {
+    .wrapper {
+      margin: 1rem;
+      padding-top: 3rem;
+    }
+  }
   @media (max-width: 800px) {
     .wrapper {
       grid-template-columns: 1fr;
       margin: 1rem;
-      padding-top: 2rem;
+      padding-top: 3rem;
     }
   }
 `;
@@ -160,7 +166,7 @@ export default function firstDraft() {
             <li>
               <span className="title">Pan Seared scallops</span>
               <br />
-              black rice, crushed cucumbers,
+              black rice, crushed cucumbers, salsa verde
             </li>
             <li>
               <span className="title">Sugar Snap Peas</span>
@@ -179,7 +185,7 @@ export default function firstDraft() {
             <li>
               <span className="title">Brown Butter Roasted Halibut</span>
               <br />
-              corn, tomatoes, fresh lime, blistered shishitos, arugula
+              corn, tomatoes, blistered shishitos, arugula, fresh lime
             </li>
             <li>
               <span className="title">Grilled skirt steak</span>
