@@ -111,7 +111,7 @@ export default function firstDraft() {
             <li>
               <span className="title">Crispy Braised Pork Belly</span>
               <br />
-              juniper, cucumber, lime crema
+              juniper, pickled cucumber, lime crema
             </li>
           </ul>
         </section>
@@ -131,12 +131,12 @@ export default function firstDraft() {
             <li>
               <span className="title">Maine Tuna Crudo</span>
               <br />
-              chili oil, olives, fennel, orange
+              chili oil, castelvetrano olives, fennel, orange
             </li>
             <li>
               <span className="title">Shrimp Ceviche - Cocktail Style</span>
               <br />
-              tomato, horseradish, lime, cucumber, jalapeno
+              tomato, horseradish, lime, celery, jalapeno
             </li>
           </ul>
         </section>
@@ -156,15 +156,15 @@ export default function firstDraft() {
             <li>
               <span className="title">Charred Chicken Skewers</span>
               <br />
-              toasted miso couscous, red onion, cucumber, tandoori yogurt
+              toasted miso couscous, red onion, cucumber, coriander yogurt
             </li>
             <li>
               <span className="title">Grilled Green Beans</span>
               <br />
-              tahini ranch, charred tomatoes, cilantro, crispy garlic
+              tahini ranch, blistered tomatoes, cilantro, crispy garlic
             </li>
             <li>
-              <span className="title">Pan Seared scallops</span>
+              <span className="title">Seared scallops</span>
               <br />
               black rice, crushed cucumbers, salsa verde
             </li>
@@ -185,7 +185,7 @@ export default function firstDraft() {
             <li>
               <span className="title">Brown Butter Roasted Halibut</span>
               <br />
-              corn, tomatoes, blistered shishitos, arugula, fresh lime
+              corn, tomatoes, grilled shishitos, arugula, fresh lime
             </li>
             <li>
               <span className="title">Grilled skirt steak</span>
