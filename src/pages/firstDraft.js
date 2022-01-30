@@ -84,9 +84,9 @@ export default function firstDraft() {
 
           <ul className="menu_items">
             <li>
-              <span className="title">The Dips</span>
+              <span className="title">The Dip</span>
               <br />
-              Crudite, house crisps, rotating daily selection
+              Crudite, house crisps, rotating daily flavors
             </li>
             <li>
               <span className="title">Oysters Rockefeller</span>
@@ -96,7 +96,7 @@ export default function firstDraft() {
             <li>
               <span className="title">Lobster Arancini</span>
               <br />
-              Tarragon aioli
+              tarragon aioli
             </li>
             <li>
               <span className="title">Deviled Eggs</span>
