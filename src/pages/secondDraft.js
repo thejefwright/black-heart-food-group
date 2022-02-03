@@ -45,6 +45,9 @@ const MenuStyles = styled.div`
     font-size: 4rem;
     margin-bottom: 2rem;
   }
+  .second {
+    padding-top: 3rem;
+  }
 
   .menu_items {
     list-style: none;
@@ -77,14 +80,11 @@ export default function firstDraft() {
       <header className="header"></header>
       <div className="wrapper">
         <section>
-          <p className="section_header">
-            I<br />
-            Snacks
-          </p>
+          <p className="section_header">I</p>
 
           <ul className="menu_items">
             <li>
-              <span className="title">The Dip</span>
+              <span className="title">Dip</span>
               <br />
               Crudite, house crisps, rotating daily flavors
             </li>
@@ -106,12 +106,11 @@ export default function firstDraft() {
             <li>
               <span className="title">Fried Oysters</span>
               <br />
-              bacon marmalade, lemon, scallion
+              bacon jam, lemon aioli, scallion
             </li>
           </ul>
-        </section>
-        <section>
-          <p className="section_header">II</p>
+
+          <p className="section_header second">II</p>
 
           <ul className="menu_items">
             <li>
@@ -137,20 +136,13 @@ export default function firstDraft() {
             <li>
               <span className="title">Local Lettuces</span>
               <br />
-              Maine crab, shaved radish and celery, grapefruit, crunchy
-              sourdough, citrus vinaigrette
+              Maine crab, shaved radish, grapefruit, citrus vinaigrette
             </li>
 
             <li>
-              <span className="title">Mussels Escabache</span>
+              <span className="title">Bangs Island Mussels Escabache</span>
               <br />
-              Bangs Island mussels, grilled sourdough, rouille, Benton's country
-              ham
-            </li>
-            <li>
-              <span className="title">Sugar Snap Peas</span>
-              <br />
-              mint, local feta, roasted garlic, toasted sesame, miso dressing
+              grilled sourdough, rouille, Benton's country ham
             </li>
             <li>
               <span className="title">Seared scallops</span>
@@ -158,14 +150,18 @@ export default function firstDraft() {
               black rice, crushed cucumbers, salsa verde
             </li>
             <li>
+              <span className="title">Sugar Snap Peas</span>
+              <br />
+              mint, local feta, roasted garlic, toasted sesame, miso dressing
+            </li>
+            <li>
               <span className="title">Crispy Braised Pork Belly</span>
               <br />
               juniper, pickled cucumber, lime crema
             </li>
           </ul>
-        </section>
-        <section>
-          <p className="section_header">IV</p>
+
+          <p className="section_header second">IV</p>
           <ul className="menu_items">
             <li>
               <span className="title">Brown Butter Roasted Halibut</span>
@@ -177,7 +173,7 @@ export default function firstDraft() {
               <span className="title">Butter Poached Lobster</span>
               <br />
               sprouted farro, roasted summer squash, preserved lemon, green
-              goddess dressing
+              goddess
             </li>
             <li>
               <span className="title">The Ubiquitous Smash Burger</span>
