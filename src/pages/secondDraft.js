@@ -142,7 +142,7 @@ export default function firstDraft() {
             <li>
               <span className="title">Bangs Island Mussels Escabache</span>
               <br />
-              grilled sourdough, rouille, hard boiled egg
+              grilled sourdough, rouille, hard boiled egg, chorizo
             </li>
             <li>
               <span className="title">Seared scallops</span>
