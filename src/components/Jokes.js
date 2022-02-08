@@ -7,18 +7,20 @@ const JokeStyles = styled.div`
 
   p {
     font-size: 2.5rem;
-    border: 1px solid white;
+    border-top: 1px solid white;
     min-height: 75vh;
     width: 75%;
     margin: auto;
     margin-bottom: 2rem;
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
   }
   button {
     padding: 1rem 3rem;
     border-radius: 20px;
     font-size: 2rem;
     color: var(--orange);
+    background: var(--blue);
+    border: 1px solid white;
   }
 `;
 
