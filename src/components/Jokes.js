@@ -4,11 +4,12 @@ import styled from 'styled-components';
 
 const JokeStyles = styled.div`
   text-align: center;
+  padding-top: 2rem;
 
   p {
     font-size: 2.5rem;
     border-top: 1px solid white;
-    min-height: 75vh;
+    min-height: 60vh;
     width: 75%;
     margin: auto;
     margin-bottom: 2rem;
