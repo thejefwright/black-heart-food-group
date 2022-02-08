@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'gatsby';
 import '@fontsource/nunito-sans/700.css';
 import buttonImage from '../images/crownJewel.png';
+import Jokes from '../components/Jokes';
 
 // import { useStaticQuery, graphql } from "gatsby";
 // import parse from "html-react-parser";
@@ -50,6 +51,7 @@ export default function IndexPage() {
           <Link to="/firstDraft" className="cj-button">
             <img src={buttonImage} alt="Crown Jewel" width="225px" />
           </Link>
+          {/* <Jokes /> */}
           {/* <Link to="/vinaigrette" className="button">
             I'm Melissa
           </Link> */}
