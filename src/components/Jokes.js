@@ -39,7 +39,6 @@ export default function Jokes() {
     });
     const data = await res.json();
     setJoke(data.joke);
-    console.log(data.joke);
   }
   return (
     <JokeStyles>
