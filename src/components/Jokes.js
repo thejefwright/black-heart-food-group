@@ -31,6 +31,7 @@ export default function Jokes() {
     fetchJoke();
   }, []);
   async function fetchJoke() {
+    setJoke('');
     const res = await fetch('https://icanhazdadjoke.com', {
       headers: {
         Accept: 'application/json',

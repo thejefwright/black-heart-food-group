@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { Link } from 'gatsby';
 import '@fontsource/nunito-sans/700.css';
 import buttonImage from '../images/crownJewel.png';
-import Jokes from '../components/Jokes';
 
 // import { useStaticQuery, graphql } from "gatsby";
 // import parse from "html-react-parser";
