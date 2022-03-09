@@ -166,7 +166,7 @@ export default function firstDraft() {
           <p className="section_header second">IV</p>
           <ul className="menu_items">
             <li>
-              <span className="title">Brown Butter Roasted Halibut</span>
+              <span className="title">Pan Roasted Halibut</span>
               <br />
               corn, tomatoes, grilled shishitos, arugula, fresh lime
             </li>
@@ -174,7 +174,7 @@ export default function firstDraft() {
             <li>
               <span className="title">Butter Poached Lobster Tail</span>
               <br />
-              sprouted farro, griled summer squash, salsa verde
+              farro, grilled summer squash, salsa verde
             </li>
             <li>
               <span className="title">The Ubiquitous Smash Burger</span>
